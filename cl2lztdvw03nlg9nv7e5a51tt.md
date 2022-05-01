@@ -17,7 +17,7 @@ The above code prints `True` because python creates the variable `b` with the va
 
 <hr>
 
-Now let us raise the bar:
+Now let's raise the bar:
 
 ```py
 a = 500
@@ -28,9 +28,9 @@ print(id(a) == id(b))
 The above code prints `False` because: 
 
 * Python creates a variable `a` pointing to the value `500` in the memory. 
-* Then it creates another variable `b` pointing to another value `500` (yeah, both 500 are different).
+* Then, it creates another variable `b` pointing to another value `500` (yeah, both 500 are different).
 
-Hence, both have different IDs because both point towards different memory locations.
+Hence, both have different IDs because both point toward different memory locations.
 
 <hr>
 
@@ -62,8 +62,8 @@ id2 = id(a)
 print(id1 == id2)
 ```
 
-Well, even though I am re-declaring the same variable with the same value, the answer is **most likely** to be `False`. I'll explain to you why. When you re-declare a variable in python, the interpreter works in the same way as a declaration. i.e. It entirely deletes the before existing value and creates a variable with the new value. So when we give `a = 500`, the second time the interpreter deletes the previously existing value of `a` and create a new memory location for `500` where `a`  would point towards. Both these IDs are most likely to be different.
+Well, even though I am re-declaring the same variable with the same value, the answer is **most likely** to be `False`. I'll explain to you why. When you re-declare a variable in python, the interpreter works in the same way as a declaration. i.e. It entirely deletes the previous existing value and creates a variable with the new value. So when we give `a = 500`, the second time the interpreter deletes the previously existing value of `a` and creates a new memory location for `500` where `a` would point towards. Both of these IDs are most likely different.
 
 SO, the answer is `False`.
 
-**NOTE:** If the above example had a number belonging to the inclusive range -5 to 256, the answer would have been `True`. this is because number belonging to the inclusive range have a fixed memory location.
+**NOTE:** If the above example had a number belonging to the inclusive range -5 to 256, the answer would have been `True`. this is because numbers belonging to the inclusive range have a fixed memory location.
