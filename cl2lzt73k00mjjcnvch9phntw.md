@@ -1,6 +1,6 @@
 ## print() in python
 
-In this post, I will talk about about the `print()` statement and it's parameters.
+In this post, I will talk about the `print()` statement and its parameters.
 
 So, I was experimenting with the `help()` function in python and tried the following command:
 
@@ -57,7 +57,7 @@ _____________
 
 Now that I have explained what `sep` and `end` are, let's talk about the 3rd parameter. The 3rd parameter is `file`. 
 
-It is a **file-like object** (stream). The default value of `file` is `sys.stdout` (sys is a built-in module). If you don't pass this argument, it will default to `stdout` and the output will be printed to the **standard output**. It is the terminal where you execute your code. Standard output is full for `stdout` (Python is implemented in C that's the reason we get to see `stdout` in Python).  If you specify a value for `file`, the output will be **printed to that file**. For example:
+It is a **file-like object** (stream). The default value of `file` is `sys.stdout` (sys is a built-in module). If you don't pass this argument, it will default to `stdout` and the output will be printed to the **standard output**. This is the terminal where you execute your code. The standard output is full for `stdout` (Python is implemented in C that's the reason we get to see `stdout` in Python).  If you specify a value for `file`, the output will be **printed to that file**. For example:
 
 ```py
 print(1, 2, 3, sep="\n", file=open("output.txt", "w+"))
@@ -71,7 +71,7 @@ the `open("output.txt", "w+")` will create a file called `output.txt` (if it doe
 3
 ```
 
-This **allows us to write to a file directly without having to convert to a string**. It also allows us to use the `sep` and `end` parameters of the `print()` function without worrying about how to implement them.
+This **allows us to write to a file directly without having to convert it to a string**. It also allows us to use the `sep` and `end` parameters of the `print()` function without worrying about how to implement them.
 
 _____________
 
@@ -92,7 +92,7 @@ would result in:
 Hello, world!
 ```
 
-The output looks perfect but there is the problem: **the 5-second pause** that was supposed to happen between the 2 words! It is not there. Now we run the same code but this time, we clear the output stream:
+The output looks perfect but there is the problem: **the 5-second pause** that was supposed to happen between the 2 words! It is not there. We'll run the same code now, but this time we'll clear the output stream:
 
 ```py
 from time import sleep
@@ -107,6 +107,6 @@ Now, when you run the program "Hello, " will be printed first and then after 5 s
 
 _____________
 
-That's all for this time.
+That's all for now.
 
 ![That's all folks!](https://cdn.hashnode.com/res/hashnode/image/upload/v1651330944421/KQbguHSJR.gif)
