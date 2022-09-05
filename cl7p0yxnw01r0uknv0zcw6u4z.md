@@ -44,4 +44,8 @@ import something
 print(f"__name__ = {__name__}")    # __name__ = 'something'
 ```
 
+# Conclusion
+
  We can use an `if __name__ == "__main__"` block to allow or prevent parts of code from being run when the modules are imported.
+
+![ending gif](https://upload.wikimedia.org/wikipedia/commons/e/ea/Thats_all_folks.svg)
