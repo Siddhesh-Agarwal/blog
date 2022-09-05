@@ -40,7 +40,7 @@ So here is what each file does:
 4. `LICENSE`: This file contains the license for the code you are publishing. 
   - You can choose a license from [choosealicense.com](https://choosealicense.com/)
 5. `pyproject.toml`: This file tells build tools (like build and pip) what is required to build your package. For now, this will do:
-    ```
+    ```toml
     [build-system]
     requires = [
         "setuptools>=42",
