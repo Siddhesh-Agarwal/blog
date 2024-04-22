@@ -1,4 +1,15 @@
-## Using if __name__ == '__main__'
+---
+title: "Using if __name__ == '__main__'"
+seoTitle: "if __name__ == '__main__': in python"
+seoDescription: "What is the use of the famous __name__ == '__main__' snippet in python? Find out..."
+datePublished: Mon Sep 05 2022 17:16:46 GMT+0000 (Coordinated Universal Time)
+cuid: cl7p0yxnw01r0uknv0zcw6u4z
+slug: if-name-main
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1662398433346/MLY7pPibm.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1662398194266/QAMqVE4oe.png
+tags: python, python3, best-practices
+
+---
 
 Many of us have seen the:
 ```python
