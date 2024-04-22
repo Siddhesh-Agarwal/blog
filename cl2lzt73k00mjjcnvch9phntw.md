@@ -1,10 +1,22 @@
-## print() in python
+---
+title: "print() in python"
+seoTitle: "print() in python"
+seoDescription: "We have all used the print() statement in python but here are some of the lesser-known parameters of the print() function."
+datePublished: Sun Jan 16 2022 06:26:10 GMT+0000 (Coordinated Universal Time)
+cuid: cl2lzt73k00mjjcnvch9phntw
+slug: print-in-python
+canonical: https://dev.to/siddhesh_agarwal/print-in-python-556p
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1651370907420/CYDwDf9DB.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1651371120338/08YQe2UVZ.png
+tags: tutorial, python
+
+---
 
 In this post, I will talk about the `print()` statement and its parameters.
 
 So, I was experimenting with the `help()` function in python and tried the following command:
 
-```markup
+```bash
 >>> help(print)
 Help on built-in function print in module builtins:
 
@@ -21,15 +33,16 @@ print(...)
 
 me, after seeing `file` and `flush` arguments in the output:
 
-![Haha, Meme based on my pain](https://cdn.hashnode.com/res/hashnode/image/upload/v1651330942759/5Uvi_sMeG.gif)
+![Haha, Meme based on my pain](https://cdn.hashnode.com/res/hashnode/image/upload/v1651330942759/5Uvi_sMeG.gif align="left")
 
 I knew about the `sep` and `end` parameters but not about the other 2 parameters. But what are these **unpopular-parameters-that-online-tutorials-do-not-talk-about**?
 
 Today, I am going to share what they are. But before that, let me explain what the first 2 parameters are.
 
-_____________
+---
 
-- `sep` is the string that is inserted between 2 values. For example:
+* `sep` is the string that is inserted between 2 values. For example:
+    
 
 ```py
 >>> print(1, 2, 3, sep='-')
@@ -38,7 +51,8 @@ _____________
 1 2 3
 ```
 
-- `end` is the string that is appended after the last value. For example:
+* `end` is the string that is appended after the last value. For example:
+    
 
 ```py
 print(1, 2, 3, end='-')
@@ -48,16 +62,16 @@ print("Hello")
 
 Will print:
 
-```markup
+```bash
 1 2 3-4 5 6
 Hello
 ```
 
-_____________
+---
 
-Now that I have explained what `sep` and `end` are, let's talk about the 3rd parameter. The 3rd parameter is `file`. 
+Now that I have explained what `sep` and `end` are, let's talk about the 3rd parameter. The 3rd parameter is `file`.
 
-It is a **file-like object** (stream). The default value of `file` is `sys.stdout` (sys is a built-in module). If you don't pass this argument, it will default to `stdout` and the output will be printed to the **standard output**. This is the terminal where you execute your code. The standard output is full for `stdout` (Python is implemented in C that's the reason we get to see `stdout` in Python).  If you specify a value for `file`, the output will be **printed to that file**. For example:
+It is a **file-like object** (stream). The default value of `file` is `sys.stdout` (sys is a built-in module). If you don't pass this argument, it will default to `stdout` and the output will be printed to the **standard output**. This is the terminal where you execute your code. The standard output is full for `stdout` (Python is implemented in C that's the reason we get to see `stdout` in Python). If you specify a value for `file`, the output will be **printed to that file**. For example:
 
 ```py
 print(1, 2, 3, sep="\n", file=open("output.txt", "w+"))
@@ -65,7 +79,7 @@ print(1, 2, 3, sep="\n", file=open("output.txt", "w+"))
 
 the `open("output.txt", "w+")` will create a file called `output.txt` (if it doesn't exist already) and write the output to it. So our `output.txt` file will look like this:
 
-```markup
+```bash
 1
 2
 3
@@ -73,7 +87,7 @@ the `open("output.txt", "w+")` will create a file called `output.txt` (if it doe
 
 This **allows us to write to a file directly without having to convert it to a string**. It also allows us to use the `sep` and `end` parameters of the `print()` function without worrying about how to implement them.
 
-_____________
+---
 
 Finally, let's talk about the `flush` parameter. The `flush` parameter is a boolean value. It "flushes" the internal buffer/stream. Let's see a small example for better understanding:
 
@@ -88,7 +102,7 @@ print("world!")
 
 would result in:
 
-```markup
+```bash
 Hello, world!
 ```
 
@@ -105,8 +119,8 @@ print("world!")
 
 Now, when you run the program "Hello, " will be printed first and then after 5 seconds "world!" will be printed.
 
-_____________
+---
 
 That's all for now.
 
-![That's all folks!](https://cdn.hashnode.com/res/hashnode/image/upload/v1651330944421/KQbguHSJR.gif)
+![That's all folks!](https://cdn.hashnode.com/res/hashnode/image/upload/v1651330944421/KQbguHSJR.gif align="left")
