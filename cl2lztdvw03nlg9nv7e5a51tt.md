@@ -1,4 +1,16 @@
-## id() in python
+---
+title: "id() in python"
+seoTitle: "value management in python variables"
+seoDescription: "How does the python interpreter handle values given to different variables? In this article, we will use the id() function to find out the answer!"
+datePublished: Sat Dec 18 2021 04:28:59 GMT+0000 (Coordinated Universal Time)
+cuid: cl2lztdvw03nlg9nv7e5a51tt
+slug: id-in-python
+canonical: https://dev.to/siddhesh_agarwal/id-in-python-27b5
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1651371360247/lsuvHhfkF.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1651371472949/d9KNkhILG.png
+tags: python
+
+---
 
 In this post, I will try to improve your idea about memory in python using the in-built `id()` function. For those of you who don't know what `id()` is:
 
