@@ -12,9 +12,11 @@ tags: python, langchain, chromadb, rag
 
 Today, I will discuss creating a Retrieval Augmented Generation (RAG) Model on your custom data using Python, LangChain, and ChromaDB (or any VectorStore you choose).
 
-## What is a RAG Model?
+> You can find the source code here: [Siddhesh-Agarwal/django-rag (](https://github.com/Siddhesh-Agarwal/django-rag)[github.com](http://github.com)[)](https://github.com/Siddhesh-Agarwal/django-rag)
 
-To put it in simple words, a RAG Model is a Large Language Model that is connected to a "Retrieval Agent". A retrieval agent is an agent that fetches documents from a "VectorStore" using the [Approximate Nearest Neighbor](https://en.wikipedia.org/wiki/Nearest_neighbor_search#Approximation_methods) (ANN) algorithm. A VectorStore can be thought to be similar to a [Knowledge Base](https://en.wikipedia.org/wiki/Knowledge_base). VectorStore or Vector Database is a special type of Database that stores information as high-order vectors. These vectors are based on the "text embeddings" of the information. Since LLMs do not understand "Language", sentences are tokenized (essentially, tokenization is the process of breaking down sentences into smaller units called "tokens". A token may or may not be equivalent to a word) and converted to their vector equivalent. Each LLM has a unique text embedding.
+## [What is a RAG Model?](https://github.com/Siddhesh-Agarwal/django-rag)
+
+[To put it in sim](https://github.com/Siddhesh-Agarwal/django-rag)ple words, a RAG Model is a Large Language Model that is connected to a "Retrieval Agent". A retrieval agent is an agent that fetches documents from a "VectorStore" using the [Approximate Nearest Neighbor](https://en.wikipedia.org/wiki/Nearest_neighbor_search#Approximation_methods) (ANN) algorithm. A VectorStore can be thought to be similar to a [Knowledge Base](https://en.wikipedia.org/wiki/Knowledge_base). VectorStore or Vector Database is a special type of Database that stores information as high-order vectors. These vectors are based on the "text embeddings" of the information. Since LLMs do not understand "Language", sentences are tokenized (essentially, tokenization is the process of breaking down sentences into smaller units called "tokens". A token may or may not be equivalent to a word) and converted to their vector equivalent. Each LLM has a unique text embedding.
 
 ## What is the use of it?
 
