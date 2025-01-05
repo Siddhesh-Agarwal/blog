@@ -116,6 +116,6 @@ The debate between Object-Oriented Programming (OOP) and Functional Programming 
 
 ## **TL;DR**
 
-The ongoing debate between Object-Oriented Programming (OOP) and Functional Programming (FP) is pointless. It doesn't matter if you use FP or OOP as long as you solve the problem. Developers should focus on the main idea of data flow, which is how data moves, changes, and adds value in a system. By focusing on good data movement and transformation, we can make our projects clearer, more adaptable, and more efficient. Thinking about data flow helps programmers handle challenges more effectively.
+The ongoing debate between Object-Oriented Programming (OOP) and Functional Programming (FP) is pointless. It doesn't matter if you use FP or OOP as long as you solve the problem. Developers should focus on the main idea of data flow, which is how data moves, changes, and adds value to a system. By focusing on good data movement and transformation, we can make our projects clearer, more adaptable, and more efficient. Thinking about data flow helps programmers handle challenges more effectively.
 
 ![](https://i.imgflip.com/9foylc.jpg align="center")
