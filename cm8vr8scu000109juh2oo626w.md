@@ -5,6 +5,7 @@ seoDescription: "Analyzes ethical and legal issues in using copyrighted material
 datePublished: Sun Mar 30 2025 14:47:59 GMT+0000 (Coordinated Universal Time)
 cuid: cm8vr8scu000109juh2oo626w
 slug: copyrights-and-llms
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743346129918/ff6f2027-ae62-4d70-a133-cfb91257c8f8.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1743346045199/033468a5-7017-4fc4-82c2-6687e335367e.png
 tags: large-language-models, aiethics
 
