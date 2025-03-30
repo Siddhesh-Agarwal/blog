@@ -46,7 +46,7 @@ If AI firms refuse to pay for copyrighted training data, they should at least **
 * **Enable Public Benefit:** Open models allow researchers, startups, and nonprofits to innovate without corporate restrictions.
     
 
-Meta’s **LLaMA** and Mistral’s models are steps in this direction, but many leading AI systems remain proprietary.
+**Meta’s LLaMA and DeepSeek’s models** are steps in this direction, but many leading AI systems remain proprietary.
 
 ## **If Not Open-Source, AI Firms Must Pay for Rights**
 
@@ -59,7 +59,9 @@ If companies insist on keeping their models closed, they should **negotiate lice
 * **Opt-out mechanisms** (letting creators exclude their work from training datasets)
     
 
-The **New York Times lawsuit against OpenAI** highlights this issue: if AI models reproduce paywalled content verbatim, should they be liable for copyright violations?
+The [**New York Times lawsuit against OpenAI**](https://www.nytimes.com/2023/12/27/business/media/new-york-times-open-ai-microsoft-lawsuit.html) and the [Indian Media v/s OpenAI Case](https://www.reuters.com/technology/openai-face-indian-digital-news-firms-ambani-adani-copyright-battle-2025-01-27/) raises a question:
+
+> if AI models reproduce paywalled content verbatim, should they be liable for copyright violations?
 
 ## **Conclusion: A Fair Approach to AI and Copyright**
 
@@ -71,5 +73,3 @@ The current practice of **scraping copyrighted works without permission** is uns
     
 
 Without reform, the AI industry risks legal battles, public backlash, and an erosion of trust. The future of AI should be built on **ethical data use**, not the unchecked exploitation of copyrighted material.
-
-**What do you think? Should AI models be open-sourced, or should companies pay for training data? Let’s discuss this in the comments!**
